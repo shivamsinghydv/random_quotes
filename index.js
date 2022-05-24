@@ -46,7 +46,7 @@ function App(){
                     <div className='card-body'>
                         {randomQuote ? (
                             <>
-                            <h5 className='card-text'> - {randomQuote.text||""} </h5>
+                            <h5 className='card-text'>  {randomQuote.text||""} </h5>
                             <h5 className='card-title float-right'> - {randomQuote.author||""} </h5>
                             </>
                         ) : (
