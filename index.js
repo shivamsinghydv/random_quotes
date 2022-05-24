@@ -46,13 +46,13 @@ function App(){
                     <div className='card-body'>
                         {randomQuote ? (
                             <>
-                            <h5 className='card-title'> - {randomQuote.author||""} </h5>
                             <h5 className='card-text'> - {randomQuote.text||""} </h5>
+                            <h5 className='card-title float-right'> - {randomQuote.author||""} </h5>
                             </>
                         ) : (
                             <h2>Loading...</h2>
                         )}
-                        <div className="row">
+                        <div className="row mt-5 ">
                             <button className='btn btn-primary ml-3' onClick={getNewQuote}>New Quote</button>
                             <a className='btn btn-warning ml-1' target="_blank" href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" + encodeURIComponent(
                                 '"' + (randomQuote.text||"") + '" ' + (randomQuote.author||"")
