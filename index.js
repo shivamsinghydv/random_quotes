@@ -36,6 +36,9 @@ function App(){
             console.log(colors[randColorIndex]);
             setColor(colors[randColorIndex]);
         }
+        const credit = () => {
+            return "made with 🧡 by shivamsinghydv"
+        }
         
         return (
             <div style={{backgroundColor: color, minHeight:'200vh'}}>
@@ -60,6 +63,7 @@ function App(){
                             <a className='btn btn-secondary ml-1' target="_blank" href={'https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption='+
                             encodeURIComponent(randomQuote.text)+ "&content="+ encodeURIComponent(randomQuote.text+"&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button")}><i className="fa-brands fa-tumblr"></i></a>
                             </div>
+                            <credit />
                     </div>
                     </div>
                 </div>
