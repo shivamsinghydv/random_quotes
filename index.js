@@ -37,8 +37,8 @@ function App(){
             setColor(colors[randColorIndex]);
         }        
         return (
-            <div style={{backgroundColor: color, minHeight:'200vh'}}>
-        <div className='container pt-5'>
+            <div style={{backgroundColor: color, minHeight:'100vh'}}>
+        <div className='container'>
             <div className='jumbotron'>
                 <div className='card'>
                     <div className='card-header'>Inspirational Quotes
@@ -62,7 +62,7 @@ function App(){
                     </div>
                     </div>
                 </div>
-            </div><div><i>made with 🧡 by shivamsinghydv</i></div>
+            </div><div className="credit"><i>made with 🧡 by <a href="twitter.com/shivamsinghydv">shivamsinghydv</a></i></div>
         </div>
         </div>
     )
