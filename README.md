@@ -1,1 +1,1 @@
-# www.randomquotes.cf
+# www.random-quotes.cf
