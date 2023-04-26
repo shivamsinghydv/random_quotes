@@ -62,7 +62,7 @@ function App(){
                     </div>
                     </div>
                 </div>
-            </div><div className="credit"><i>made with 🧡 by <a href="twitter.com/shivamsinghydv">shivamsinghydv</a></i></div>
+            </div><div className="credit"><i>made with 🧡 by <a href="https://twitter.com/shivamsinghydv">shivamsinghydv</a></i></div>
         </div>
         </div>
     )
