@@ -1,1 +1,1 @@
-# www.random-quotes.cf
+# http://shivamsinghydv.me/random-quotes/
