@@ -1,1 +1,1 @@
-# http://shivamsinghydv.me/random-quotes/
+# https://shivamsinghydv.me/random-quotes/
