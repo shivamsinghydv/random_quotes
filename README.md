@@ -1,1 +1,1 @@
-# https://shivamsinghydv.me/random-quotes/
+#https://shivamsinghydv.github.io/random_quotes/
